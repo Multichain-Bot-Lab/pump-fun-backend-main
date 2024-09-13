@@ -6,7 +6,7 @@ import { logger } from './src/sockets/logger';
 // Socket communication
 const server = createServer(app);
 socketio(server);
-
+console.log(server);
 /**
  * start Express server
  */
